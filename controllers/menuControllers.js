@@ -27,7 +27,7 @@ module.exports = {
         }).indexOf(localEscolhido), 1)
     },
     menuDeEntregas: function (caminhoes, locais) {
-        if (locais.length > 0) {
+        if (locais.length >= 1) {
             carergamento.alocarLocais(caminhoes, locais);
         }
         caminhoes.map(caminhao => {
