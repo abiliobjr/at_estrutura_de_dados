@@ -1,0 +1,14 @@
+{
+  "name": "at_estrutura_de_dados_node",
+  "version": "1.0.0",
+  "description": "algoritimo caminhoes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abilio Bittencourt",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
