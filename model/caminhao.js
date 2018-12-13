@@ -6,7 +6,7 @@ module.exports = {
         const placa = readline.question("Digite a placa do caminhão:");
         const locais = [];
 
-        return {idCaminhao, placa, locais}
+        return {idCaminhao, placa, locais};
     },
     getCaminhao: function (array, id) {
         const position = array.map(function (e) {
@@ -18,6 +18,6 @@ module.exports = {
         const position = array.map(function (e) {
             return e.idCaminhao;
         }).indexOf(idCaminhao);
-        array[position].locais.push(local)
+        array[position].locais.push(local);
     }
 };

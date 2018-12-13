@@ -6,7 +6,7 @@ module.exports = {
         const name = readline.question("Digite o nome do local:");
         const itens = [];
 
-        return {idLocal, name, itens}
+        return {idLocal, name, itens};
     },
     getLocal: function (array, id) {
         const position = array.map(function (e) {
